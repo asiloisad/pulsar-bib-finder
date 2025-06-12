@@ -48,7 +48,7 @@
     "bibtex-parse": "^2.1.0",
     "diacritic": "0.0.2",
     "etch": "^0.14.1",
-    "glob": "^10.3.3"
+    "glob": "^10.4.5"
   },
   "configSchema": {
     "bibLocal": {
@@ -127,7 +127,9 @@
           "title": "Array of sources",
           "description": "Array of paths, separated by commas.",
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "default": []
         }
       }
