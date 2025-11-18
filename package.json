@@ -48,7 +48,7 @@
     "bibtex-parse": "^2.1.0",
     "diacritic": "0.0.2",
     "etch": "^0.14.1",
-    "glob": "^10.4.5"
+    "glob": "^11.1.0"
   },
   "configSchema": {
     "bibLocal": {
