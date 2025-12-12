@@ -6,4 +6,4 @@
   'enter'     : 'select-list:name'
   'alt-enter' : 'select-list:cite'
   'ctrl-enter': 'select-list:opti'
-  'f5'        : 'bib-finder:update'
+  'f5'        : 'select-list:update'

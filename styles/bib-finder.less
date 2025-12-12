@@ -1,18 +1,5 @@
 @import "ui-variables";
-
-.bib-finder ol.list-group li.two-lines .secondary-line {
-    white-space: pre-wrap;
-}
-
-.bib-finder > span {
-  color: @text-color-subtle;
-  cursor: context-menu;
-}
-
-.bib-finder .empty-message {
-  color: @text-color-error;
-  margin-top: 10px;
-}
+@import '../node_modules/pulsar-select-list/select.less';
 
 .bib-finder .item-type {
   color: @syntax-color-constant;
@@ -23,12 +10,6 @@
   vertical-align: baseline;
 }
 
-.bib-finder .keystroke {
-  border: solid 1px;
-  padding: .2em .4em;
-  border-radius: 4px;
-}
-
-.bib-finder .loading-message {
-  display: flex;
+.bib-finder ol.list-group li.two-lines .secondary-line {
+    white-space: pre-wrap;
 }

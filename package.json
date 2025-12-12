@@ -44,11 +44,9 @@
     }
   },
   "dependencies": {
-    "atom-select-list": "^0.7.2",
     "bibtex-parse": "^2.1.0",
-    "diacritic": "0.0.2",
-    "etch": "^0.14.1",
-    "glob": "^11.1.0"
+    "glob": "^11.1.0",
+    "pulsar-select-list": "^1.0.0"
   },
   "configSchema": {
     "bibLocal": {
@@ -72,22 +70,15 @@
       "type": "boolean",
       "default": false
     },
-    "showKeystrokes": {
-      "order": 4,
-      "title": "Enable keystroke hints",
-      "description": "Info message with keystroke in lists.",
-      "type": "boolean",
-      "default": true
-    },
     "showSource": {
-      "order": 5,
+      "order": 4,
       "title": "Show source path",
       "description": "Show the path of the source `.bib' file for each entry.",
       "type": "boolean",
       "default": true
     },
     "bibPaths": {
-      "order": 6,
+      "order": 5,
       "title": "Bibliography sources as single path",
       "description": "Absolute paths to the bibliography files.",
       "type": "object",
