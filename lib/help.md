@@ -1,4 +1,0 @@
-- **Enter** — Insert citation key
-- **Alt+Enter** — Insert `\cite{key}`
-- **Ctrl+Enter** — Insert `\cite[]{key}` with cursor in brackets
-- **F5** — Refresh bibliography cache
