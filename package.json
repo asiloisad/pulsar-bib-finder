@@ -46,7 +46,7 @@
   "dependencies": {
     "bibtex-parse": "^2.1.0",
     "glob": "^11.1.0",
-    "pulsar-select-list": "^1.0.2"
+    "pulsar-select-list": "^1.2.0"
   },
   "configSchema": {
     "bibLocal": {
