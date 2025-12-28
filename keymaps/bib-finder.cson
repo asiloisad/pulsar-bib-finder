@@ -5,5 +5,5 @@
 '.bib-finder atom-text-editor[mini]':
   'enter'     : 'select-list:name'
   'alt-enter' : 'select-list:cite'
-  'ctrl-enter': 'select-list:opti'
+  'ctrl-enter': 'select-list:square'
   'f5'        : 'select-list:update'
