@@ -1,6 +1,6 @@
 {
   "name": "bib-finder",
-  "description": "Find bibliographic keys from your data in list form",
+  "description": "Search and insert BibTeX citation keys from your bibliography files",
   "repository": "https://github.com/asiloisad/pulsar-bib-finder",
   "keywords": [
     "tex",
