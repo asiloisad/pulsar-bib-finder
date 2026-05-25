@@ -15,29 +15,29 @@ Search and insert BibTeX citation keys from your bibliography files. Supports mu
 
 To install `bib-finder` search for [bib-finder](https://web.pulsar-edit.dev/packages/bib-finder) in the Install pane of the Pulsar settings or run `ppm install bib-finder`. Alternatively, you can run `ppm install asiloisad/pulsar-bib-finder` to install a package directly from the GitHub repository.
 
+## Commands
+
+Commands available in `atom-workspace`:
+
+- `bib-finder:cite`: open citation list,
+- `bib-finder:cite-from-local`: open citation list from local `.bib` files only,
+- `bib-finder:cite-from-source-N`: open citation list from specific source,
+- `bib-finder:open-source-1`: open source no. 1 bib file,
+- `bib-finder:open-source-N`: open source bib file.
+
+Commands available in `.bib-finder`:
+
+- `select-list:name`: insert `<key>`,
+- `select-list:cite`: insert `\cite{<key>}`,
+- `select-list:square`: insert `\cite[]{<key>}`,
+- `select-list:update`: manually update list.
+
 ## Usage
 
 To use the package, you need a bibliography file in BibTeX format `.bib`. This file should be created and maintained by the user. There are two ways to use it:
 
 - global: You can specify the file paths in the package settings,
 - local: You can use files in project directory.
-
-## Commands
-
-Commands available in `atom-workspace`:
-
-- `bib-finder:cite`: <kbd>F9</kbd> open citation list,
-- `bib-finder:cite-from-local`: open citation list from local `.bib` files only,
-- `bib-finder:cite-from-source-N`: open citation list from specific source,
-- `bib-finder:open-source-1`: <kbd>Ctrl+F9</kbd> open source no. 1 bib file,
-- `bib-finder:open-source-N`: open source bib file.
-
-Commands available in `.bib-finder`:
-
-- `select-list:name`: <kbd>Enter</kbd> insert `<key>`,
-- `select-list:cite`: <kbd>Alt+Enter</kbd> insert `\cite{<key>}`,
-- `select-list:square`: <kbd>Ctrl+Enter</kbd> insert `\cite[]{<key>}`,
-- `select-list:update`: <kbd>F5</kbd> manually update list.
 
 ## Example of `.bib` file
 
